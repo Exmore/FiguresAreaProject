@@ -9,3 +9,9 @@ D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.csprojAs
 D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.csproj.CoreCompileInputs.cache
 D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.dll
 D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.pdb
+D:\Projects\FiguresProject\FiguresAreaProject\FIguresDll\FIguresDll\bin\Debug\FIguresDll.dll
+D:\Projects\FiguresProject\FiguresAreaProject\FIguresDll\FIguresDll\bin\Debug\FIguresDll.pdb
+D:\Projects\FiguresProject\FiguresAreaProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.csprojAssemblyReference.cache
+D:\Projects\FiguresProject\FiguresAreaProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.csproj.CoreCompileInputs.cache
+D:\Projects\FiguresProject\FiguresAreaProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.dll
+D:\Projects\FiguresProject\FiguresAreaProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.pdb

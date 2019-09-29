@@ -18,6 +18,24 @@ namespace TestsProject
             var area = GetArea(circle);
         }
 
+        [DataTestMethod]
+        [DataRow(1f, 3.14159274f)]
+        public void CheckValue(float radius, float area)
+        {
+            var circle = CreateCircle(radius);
+            var areValue = GetArea(circle);
+            Assert.AreEqual(areValue, area);
+        }
+
+        [DataTestMethod]
+        [DataRow(-100f, -1f)]
+        public void ChecWrongkValue(float radius, float area)
+        {
+            var circle = CreateCircle(radius);
+            var areValue = GetArea(circle);
+            Assert.AreEqual(areValue, area);
+        }
+
         private CircleModel CreateCircle(float radius)
         {
             return new CircleModel { Radius = radius };

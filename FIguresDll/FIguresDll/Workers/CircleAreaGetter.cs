@@ -1,4 +1,5 @@
-﻿using FIguresDll.Interfases;
+﻿using FIguresDll.Exceptions;
+using FIguresDll.Interfases;
 using FIguresDll.Models;
 using System;
 
@@ -16,7 +17,7 @@ namespace FIguresDll.Workers
 
             if (radius < 0)
             {
-                result.Error = new Exception("Радиус не может быть меньше 0.");
+                result.Error = new AreaGetterException("Радиус не может быть меньше 0.");
                 return result;
             }
 
@@ -35,7 +36,7 @@ namespace FIguresDll.Workers
             {
                 return new AreaResult
                 {
-                    Error = new Exception("Не инстанциированная модель.")
+                    Error = new AreaGetterException("Не инстанциированная модель.")
                 };
             }            
 
@@ -53,7 +54,7 @@ namespace FIguresDll.Workers
             {
                 return new AreaResult
                 {
-                    Error = new Exception("Другая модель.")
+                    Error = new AreaGetterException("Другая модель.")
                 };
             }
 

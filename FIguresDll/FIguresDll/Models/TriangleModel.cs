@@ -1,4 +1,5 @@
-﻿using FIguresDll.Interfases;
+﻿using FIguresDll.Exceptions;
+using FIguresDll.Interfases;
 using System;
 
 namespace FIguresDll.Models
@@ -34,7 +35,7 @@ namespace FIguresDll.Models
             }
             catch (Exception ex)
             {
-                throw ex;
+                throw new AreaGetterException(ex.Message);
             }
 
             return false;

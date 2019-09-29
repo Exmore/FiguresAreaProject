@@ -5717,11 +5717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FiguresGit\\FiguresProject\\FIguresDll\\TestsProject\\TestsProject.csproj",
+      "projectUniqueName": "D:\\Projects\\FiguresProject\\FiguresAreaProject\\FIguresDll\\TestsProject\\TestsProject.csproj",
       "projectName": "TestsProject",
-      "projectPath": "D:\\FiguresGit\\FiguresProject\\FIguresDll\\TestsProject\\TestsProject.csproj",
+      "projectPath": "D:\\Projects\\FiguresProject\\FiguresAreaProject\\FIguresDll\\TestsProject\\TestsProject.csproj",
       "packagesPath": "C:\\Users\\Vladislav\\.nuget\\packages\\",
-      "outputPath": "D:\\FiguresGit\\FiguresProject\\FIguresDll\\TestsProject\\obj\\",
+      "outputPath": "D:\\Projects\\FiguresProject\\FiguresAreaProject\\FIguresDll\\TestsProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5740,8 +5740,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\FiguresGit\\FiguresProject\\FIguresDll\\FIguresDll\\FIguresDll.csproj": {
-              "projectPath": "D:\\FiguresGit\\FiguresProject\\FIguresDll\\FIguresDll\\FIguresDll.csproj"
+            "D:\\Projects\\FiguresProject\\FiguresAreaProject\\FIguresDll\\FIguresDll\\FIguresDll.csproj": {
+              "projectPath": "D:\\Projects\\FiguresProject\\FiguresAreaProject\\FIguresDll\\FIguresDll\\FIguresDll.csproj"
             }
           }
         }

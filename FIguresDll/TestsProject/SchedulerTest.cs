@@ -10,7 +10,6 @@ namespace TestsProject
     [TestClass]
     public class SchedulerTest
     {
-
         [DataTestMethod]
         [DataRow(1f)]
         [DataRow(11f)]
@@ -21,6 +20,16 @@ namespace TestsProject
             var areaGetter = AreaScheduler.GetAreaGetter(FIguresDll.Interfases.AllFigures.Circle);
             var circleModel = GetCircle(radius);
             var area = areaGetter.GetArea(circleModel);
+        }
+
+        [DataTestMethod]
+        [DataRow(new float[] { 1f })]
+        [DataRow(new float[] { 11f, 12f })]
+        [DataRow(new float[] { 1f, 1f, 1f })]
+        [DataRow(new float[] { 4f, 3f, 5f, 6f })]
+        public void TestScheduler(params float[] values)
+        {
+            var area = AreaScheduler.GetArea(values);
         }
 
         private CircleModel GetCircle(float radius)

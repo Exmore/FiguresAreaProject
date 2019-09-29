@@ -14,17 +14,10 @@ namespace TestsProject
         [DataRow(2f, 2f, 3f)]
         [DataRow(4f, 3f, 5f)]
         public void TestMethod(float firstSide, float secondSide, float thridSide)
-        {
-            try
-            {
-                var triangle = CreateTriangle(firstSide, secondSide, thridSide);
-                var area = GetArea(triangle);
-                var isRight = triangle.IsTriangleRight();
-            }
-            catch (Exception ex)
-            {
-
-            }
+        {            
+            var triangle = CreateTriangle(firstSide, secondSide, thridSide);
+            var area = GetArea(triangle);
+            var isRight = triangle.IsTriangleRight();
         }
 
         private TriangleModel CreateTriangle(float firstSide, float secondSide, float thridSide)

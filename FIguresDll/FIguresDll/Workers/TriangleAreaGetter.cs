@@ -1,4 +1,5 @@
-﻿using FIguresDll.Interfases;
+﻿using FIguresDll.Exceptions;
+using FIguresDll.Interfases;
 using FIguresDll.Models;
 using System;
 
@@ -17,13 +18,13 @@ namespace FIguresDll.Workers
             try
             {
                 if (figureModel is TriangleModel == false)
-                    throw new Exception("Другая модель.");
+                    throw new AreaGetterException("Другая модель.");
 
                 var triangle = figureModel as TriangleModel;
                 CheckTriangle(triangle.FirstLength, triangle.SecondLength, triangle.ThirdLength);
                 result.SetArea(GetCurrentArea(triangle.FirstLength, triangle.SecondLength, triangle.ThirdLength));
             }
-            catch(Exception ex)
+            catch(AreaGetterException ex)
             {
                 result.Error = ex;
             }
@@ -43,12 +44,12 @@ namespace FIguresDll.Workers
             try
             {
                 if (triangle == null)
-                    throw new Exception("Не инстанциированная модель.");
+                    throw new AreaGetterException("Не инстанциированная модель.");
                 
                 CheckTriangle(triangle.FirstLength, triangle.SecondLength, triangle.ThirdLength);
                 result.SetArea(GetCurrentArea(triangle.FirstLength, triangle.SecondLength, triangle.ThirdLength));
             }
-            catch (Exception ex)
+            catch (AreaGetterException ex)
             {
                 result.Error = ex;
             }
@@ -70,7 +71,7 @@ namespace FIguresDll.Workers
                 CheckTriangle(first, second, third);
                 result.SetArea(GetCurrentArea(first, second, third));
             }
-            catch(Exception ex)
+            catch(AreaGetterException ex)
             {
                 result.Error = ex;
             }
@@ -82,10 +83,10 @@ namespace FIguresDll.Workers
         private void CheckTriangle(float firstLength, float secondLength, float thirdLength)
         {
             if (firstLength <= 0 || secondLength <= 0 || thirdLength <= 0)
-                throw new Exception("Error. Side length can`t be equels or below zero");
+                throw new AreaGetterException("Error. Side length can`t be equels or below zero");
 
             if (firstLength + secondLength <= thirdLength || firstLength + thirdLength <= secondLength || secondLength + thirdLength <= firstLength)
-                throw new Exception("Error. Wrong side size");
+                throw new AreaGetterException("Error. Wrong side size");
         }
 
 

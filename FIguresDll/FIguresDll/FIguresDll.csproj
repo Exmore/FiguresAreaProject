@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\AreaGetterException.cs" />
     <Compile Include="Interfases\AllFigures.cs" />
     <Compile Include="Interfases\IAreaGetter.cs" />
     <Compile Include="Models\AreaResult.cs" />

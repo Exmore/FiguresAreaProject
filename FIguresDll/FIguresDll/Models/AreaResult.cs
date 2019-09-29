@@ -1,9 +1,11 @@
-﻿namespace FIguresDll.Models
+﻿using FIguresDll.Exceptions;
+
+namespace FIguresDll.Models
 {
     public class AreaResult
     {
         public float ResultArea { get; private set; }
-        public System.Exception Error { get; set; }
+        public AreaGetterException Error { get; set; }
 
         public AreaResult()
         {
