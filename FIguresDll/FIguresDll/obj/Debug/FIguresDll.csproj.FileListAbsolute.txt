@@ -1,0 +1,11 @@
+c:\users\vladislav\source\repos\FIguresDll\FIguresDll\bin\Debug\FIguresDll.dll
+c:\users\vladislav\source\repos\FIguresDll\FIguresDll\bin\Debug\FIguresDll.pdb
+c:\users\vladislav\source\repos\FIguresDll\FIguresDll\obj\Debug\FIguresDll.csproj.CoreCompileInputs.cache
+c:\users\vladislav\source\repos\FIguresDll\FIguresDll\obj\Debug\FIguresDll.dll
+c:\users\vladislav\source\repos\FIguresDll\FIguresDll\obj\Debug\FIguresDll.pdb
+D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\bin\Debug\FIguresDll.dll
+D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\bin\Debug\FIguresDll.pdb
+D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.csprojAssemblyReference.cache
+D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.csproj.CoreCompileInputs.cache
+D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.dll
+D:\FiguresGit\FiguresProject\FIguresDll\FIguresDll\obj\Debug\FIguresDll.pdb
